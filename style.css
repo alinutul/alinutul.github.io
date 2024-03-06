@@ -1,0 +1,81 @@
+
+  body {
+    
+    background-image: url(imagini/Plan-of-operations-on-d-day.webp);
+    background-repeat: no-repeat;
+    background-size: cover
+    
+  }
+  .navbar{
+
+    margin-top: -8px;
+		width: 100%;
+		height: 52.5px;
+    position: fixed;
+		background-color:#363636;
+    font-family: "Madimi One", sans-serif;
+}
+
+.dropbtn {
+  background-color: #0068df;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  margin-left: -10px;
+  font-family: "Madimi One", sans-serif;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Madimi One", sans-serif;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2b2b2b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px  rgb(0,0,0);
+  z-index: 1;
+  font-family: "Madimi One", sans-serif;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  transition: all 0.5s ease-in-out;
+  background-color: #224a96;
+}
+.titlu{
+  color: #f1f1f1;
+  text-shadow: 7px 8px 16px  rgb(0,0,0);
+  position: fixed;
+  margin-top: -48px;
+  margin-left:35%;
+}
+.pagina{
+  margin-top: 400px;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #97d0ff;
+  margin-bottom: 100%;
+  height: 1000px;
+  text-align: center;
+  margin-left: -10px;
+}
