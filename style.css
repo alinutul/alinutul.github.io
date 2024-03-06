@@ -70,12 +70,19 @@
   margin-left:35%;
 }
 .pagina{
+  
   margin-top: 400px;
   font-size: 18px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #97d0ff;
-  margin-bottom: 100%;
-  height: 1000px;
+  height: 5000px;
   text-align: center;
   margin-left: -10px;
+  padding-left: 100px;
+  padding-right: 100px ;
+}
+.scris{
+  margin-block: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #b4ddff;
+  border-radius: 20px;
 }
