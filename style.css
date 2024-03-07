@@ -1,11 +1,14 @@
 
   body {
     
-    background-image: url(imagini/Plan-of-operations-on-d-day.webp);
-    background-repeat: no-repeat;
-    background-size: cover
+    background-image: url(imagini/harta.png);
+    background-size: cover; 
+    margin: 0; 
+    overflow: auto;
     
   }
+  
+
   .navbar{
 
     margin-top: -8px;
@@ -14,6 +17,7 @@
     position: fixed;
 		background-color:#363636;
     font-family: "Madimi One", sans-serif;
+    max-height:100vh; 
 }
 
 .dropbtn {
@@ -25,12 +29,14 @@
   cursor: pointer;
   margin-left: -10px;
   font-family: "Madimi One", sans-serif;
+
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
   font-family: "Madimi One", sans-serif;
+
 }
 
 .dropdown-content {
@@ -68,21 +74,25 @@
   position: fixed;
   margin-top: -48px;
   margin-left:35%;
+
 }
 .pagina{
   
   margin-top: 400px;
   font-size: 18px;
   background-color: #97d0ff;
-  height: 5000px;
   text-align: center;
   margin-left: -10px;
   padding-left: 100px;
   padding-right: 100px ;
+        height: 100vh;
 }
 .scris{
   margin-block: 50px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: #b4ddff;
   border-radius: 20px;
+  border: 3px;
+  border-color: #2f8dda;
+  border-style: solid;
 }
